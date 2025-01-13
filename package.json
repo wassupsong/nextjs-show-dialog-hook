@@ -1,6 +1,6 @@
 {
   "name": "nextjs-show-dialog-hook",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "open dialog",
   "main": "./dist/index.js",
   "scripts": {
