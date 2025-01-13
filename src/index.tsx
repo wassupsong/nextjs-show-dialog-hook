@@ -27,7 +27,7 @@ type DialogContextType = {
 
 const DialogContext = createContext<DialogContextType | null>(null);
 
-export const DialogProvider: React.FC<{ children: React.ReactNode }> = ({
+const DialogProvider: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
   const [dialogs, setDialogs] = useState<DialogItem[]>([]);
@@ -78,10 +78,12 @@ export const DialogProvider: React.FC<{ children: React.ReactNode }> = ({
   );
 };
 
-export const useDialog = () => {
+const useDialog = () => {
   const context = useContext(DialogContext);
   if (!context) {
     throw new Error("useDialog must be used within DialogProvider");
   }
   return context;
 };
+
+export { DialogProvider, useDialog };
