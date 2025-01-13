@@ -4,6 +4,8 @@
   "description": "open dialog",
   "main": "./dist/index.js",
   "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
     "test": "jest"
   },
   "repository": {
@@ -18,6 +20,11 @@
   ],
   "author": "wassupsong <shs0783@gmail.com>",
   "license": "ISC",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "bugs": {
     "url": "https://github.com/wassupsong/nextjs-show-dialog-hook/issues"
   },
