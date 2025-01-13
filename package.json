@@ -2,7 +2,7 @@
   "name": "nextjs-show-dialog-hook",
   "version": "1.0.1",
   "description": "open dialog",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "jest"
   },
@@ -22,14 +22,7 @@
     "url": "https://github.com/wassupsong/nextjs-show-dialog-hook/issues"
   },
   "homepage": "https://github.com/wassupsong/nextjs-show-dialog-hook#readme",
-  "exports": {
-    ".": {
-      "types": "./index.d.ts",
-      "import": "./index.js",
-      "require": "./index.cjs",
-      "default": "./index.js"
-    }
-  },
+  "types": "dist/index.d.ts",
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
