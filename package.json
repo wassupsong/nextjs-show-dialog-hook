@@ -1,0 +1,48 @@
+{
+  "name": "nextjs-show-dialog-hook",
+  "version": "1.0.0",
+  "description": "open dialog",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wassupsong/nextjs-show-dialog-hook.git"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "hook",
+    "wassupsong"
+  ],
+  "author": "wassupsong <shs0783@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wassupsong/nextjs-show-dialog-hook/issues"
+  },
+  "homepage": "https://github.com/wassupsong/nextjs-show-dialog-hook#readme",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "require": "./index.cjs",
+      "default": "./index.js"
+    }
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^18.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "uuid": "^11.0.5"
+  }
+}
